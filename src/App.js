@@ -124,8 +124,8 @@ function App() {
         <Route 
           path='/choice'
           render={() => <ChoicePage 
-            firstCategory={firstCategory.results ? firstCategory.results[0].category : ""} 
-            secondCategory={secondCategory.results ? secondCategory.results[0].category : ""}  
+            firstCategory={firstData[0].category} 
+            secondCategory={secondData[0].category}  
           />} 
         />
         <Route 
